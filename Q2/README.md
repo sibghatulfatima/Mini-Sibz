@@ -13,4 +13,6 @@ It has a styled product table, a nested category list and a subscribe form.
 
 ## Screenshot
 
-![Store screenshot](screenshot.png)
+![Store screenshot 1](screenshot1.png)
+
+![Store screenshot 2](screenshot2.png)
