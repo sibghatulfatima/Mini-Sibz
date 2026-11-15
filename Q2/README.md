@@ -5,13 +5,14 @@ It has a styled product table, a nested category list and a subscribe form.
 
 ## CSS Precedence
 
-- **Tagline paragraph colour:** Purple. The inline style wins.
-- **Other `<p>` tags:** Black and italic. The internal CSS overrides the external gray (#555).
-- **Why:** Inline styles are the strongest, so purple beats everything.
-  The internal and external rules both use `p`, so they are equally specific, and the later one (internal) wins.
-  The order is inline > internal > external.
+- **Tagline paragraph colour:** Dark green (#006400). The inline style wins.
+- **Other `<p>` tags:** Dark red (#8b0000) and italic. The internal CSS overrides the external gray (#555).
+- **Why:**
+  1. Inline styles have the highest specificity, so the tagline's green beats everything.
+  2. The internal and external rules both use `p`, so they are equally specific, and the internal one wins because it comes later.
+  3. The order is inline > internal > external.
 
-## Screenshot
+## Screenshots
 
 ![Store screenshot 1](screenshot1.png)
 
